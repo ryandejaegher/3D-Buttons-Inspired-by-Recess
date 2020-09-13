@@ -152,6 +152,7 @@
         var link = this.shadowRoot.querySelector("a");
         link.href = this.getAttribute("href");
       }
+      
     }
   
     window.customElements.define("shadow-button", ShadowButton);
