@@ -187,6 +187,10 @@
             console.log(`Value changed from ${oldValue} to ${newValue}`);
             this.checkColor();
             break;
+          case 'textcolor':
+            console.log(`Value changed from ${oldValue} to ${newValue}`);
+            this.checkColor();
+            break;
         }
 
       }
