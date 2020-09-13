@@ -117,7 +117,7 @@
       }
   
       get buttonColor() {
-        return this.hasAttribute("color");
+        return this.hasAttribute("buttonColor");
       }
   
       set buttonColor(val) {
