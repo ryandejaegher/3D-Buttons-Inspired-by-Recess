@@ -170,6 +170,6 @@
 
   var buttons = document.querySelectorAll('shadow-button');
 
-buttons.forEach(button => {
+buttons.forEach((button,index) => {
     button.buttonColor="
 })
