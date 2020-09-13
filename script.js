@@ -158,7 +158,7 @@
         switch (name) {
           case 'buttonColor':
             console.log(`Value changed from ${oldValue} to ${newValue}`);
-            this.checkColor()
+            this.checkColor();
             break;
         }
       }
