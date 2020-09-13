@@ -133,6 +133,18 @@
         }
       }
 
+      get shadowColor() {
+        return this.hasAttribute("shadowColor");
+      }
+  
+      set shadowColor(val) {
+        if (val) {
+           return this.setAttribute("shadowColor", val);
+        } else {
+          return this.removeAttribute("shadowColor");
+        }
+      }
+
       checkColor() {
         var buttonColor = this.getAttribute("buttonColor");
         var shadowColor = this.getAttribute("shadowColor");
