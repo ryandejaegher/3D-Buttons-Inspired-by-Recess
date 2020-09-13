@@ -172,7 +172,12 @@
             console.log(`Value changed from ${oldValue} to ${newValue}`);
             this.checkColor();
             break;
+          case 'shadowcolor':
+            console.log(`Value changed from ${oldValue} to ${newValue}`);
+            this.checkColor();
+            break;
         }
+
       }
     }
   
