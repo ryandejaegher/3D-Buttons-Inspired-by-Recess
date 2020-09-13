@@ -41,7 +41,7 @@
   :host([top-right]){
     --shadowPosition: translate(calc(var(--shadowOffset) * -1px), calc(var(--shadowOffset) * 1px));
     --hoverMovement: translate(calc(var(--buttonMovement) * -1px), calc(var(--buttonMovement) * 1px));
-  --clickMove: translate(calc(var(--clickMovement) * -1px), calc(var(--clickMovement) * 1px))
+    --clickMove: translate(calc(var(--clickMovement) * -1px), calc(var(--clickMovement) * 1px))
   }
   
    a {
