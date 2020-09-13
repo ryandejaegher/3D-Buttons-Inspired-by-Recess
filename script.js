@@ -141,4 +141,8 @@
   })();
   
 
-  var buttons 
+  var buttons = document.querySelectorAll('shadow-button')
+
+  buttons.forEach(button => {
+    button
+  })
