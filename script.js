@@ -153,6 +153,15 @@
         link.href = this.getAttribute("href");
       }
       
+
+      attributeChangedCallback(name, oldValue, newValue) {
+        switch (name) {
+          case 'buttonColor':
+            console.log(`Value changed from ${oldValue} to ${newValue}`);
+            this.checkColor()
+            break;
+        }
+      }
     }
   
     window.customElements.define("shadow-button", ShadowButton);
