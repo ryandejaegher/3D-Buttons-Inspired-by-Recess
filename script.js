@@ -132,15 +132,15 @@
           return this.removeAttribute("buttonColor");
         }
       }
-      get buttonColor() {
-        return this.hasAttribute("buttonColor");
+      get textColor() {
+        return this.hasAttribute("textColor");
       }
   
-      set buttonColor(val) {
+      set textColor(val) {
         if (val) {
-           return this.setAttribute("buttonColor", val);
+           return this.setAttribute("textColor", val);
         } else {
-          return this.removeAttribute("buttonColor");
+          return this.removeAttribute("textColor");
         }
       }
 
