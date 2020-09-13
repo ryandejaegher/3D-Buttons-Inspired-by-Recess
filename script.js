@@ -131,6 +131,7 @@
         } else {
           return this.removeAttribute("buttonColor");
         }
+        this.checkColor()
       }
 
       checkColor() {
