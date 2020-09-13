@@ -204,7 +204,7 @@
 
 buttons.forEach((button,index) => {
 
-    button.textColor=`white`;
-    button.buttonColor= `hsla(${300 + (index*3)}, 100%, 80%,1`;
-    button.shadowColor= `hsla(${300 + (index*3)}, 80%, 30%,1)`;
+    button.textColor=`black`;
+    button.buttonColor= `white`;
+
 })
