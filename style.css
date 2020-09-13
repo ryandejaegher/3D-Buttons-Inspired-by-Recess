@@ -5,3 +5,11 @@ body {
     justify-content: center;
     font-family: monospace;
 }
+
+.row {
+    display: flex;
+}
+
+.row > * + * {
+    margin-left: 20px;
+}
