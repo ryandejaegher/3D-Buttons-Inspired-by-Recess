@@ -127,7 +127,7 @@
   
       set buttonColor(val) {
         if (val) {
-          return this.setAttribute("buttonColor", val);
+           this.setAttribute("buttonColor", val);
         } else {
           return this.removeAttribute("buttonColor");
         }
