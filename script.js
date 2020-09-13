@@ -156,7 +156,7 @@
 
       attributeChangedCallback(name, oldValue, newValue) {
         switch (name) {
-          case 'buttoncolor':
+          case 'buttonColor':
             console.log(`Value changed from ${oldValue} to ${newValue}`);
             this.checkColor();
             break;
