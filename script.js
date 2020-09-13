@@ -171,5 +171,5 @@
   var buttons = document.querySelectorAll('shadow-button');
 
 buttons.forEach((button,index) => {
-    button.buttonColor= `hsla(${0 + (index*2)}, 70%, 60%,1)`;
+    button.buttonColor= `hsla(${0 + (index*2)}, 100%, 50%,1)`;
 })
