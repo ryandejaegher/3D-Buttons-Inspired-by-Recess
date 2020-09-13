@@ -94,7 +94,7 @@
     class ShadowButton extends HTMLElement {
 
         static get observedAttributes() { 
-            return ['buttoncolor','shadowcolor']; 
+            return ['buttoncolor','shadowcolor','textcolor']; 
         }
 
       get href() {
@@ -121,6 +121,17 @@
         }
       }
   
+      get buttonColor() {
+        return this.hasAttribute("buttonColor");
+      }
+  
+      set buttonColor(val) {
+        if (val) {
+           return this.setAttribute("buttonColor", val);
+        } else {
+          return this.removeAttribute("buttonColor");
+        }
+      }
       get buttonColor() {
         return this.hasAttribute("buttonColor");
       }
