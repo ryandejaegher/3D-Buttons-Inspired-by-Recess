@@ -92,6 +92,9 @@
   `;
   
     class ShadowButton extends HTMLElement {
+
+        static get observedAttributes() { return ['c', 'l']; }
+
       get href() {
         return this.hasAttribute("href");
       }
