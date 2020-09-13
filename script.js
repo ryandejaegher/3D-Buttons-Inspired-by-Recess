@@ -132,8 +132,8 @@
   
       connectedCallback() {
         this.checkColor();
-        // var link = this.shadowRoot.querySelector("a");
-        // link.href = this.getAttribute("href");
+        var link = this.shadowRoot.querySelector("a");
+        link.href = this.getAttribute("href");
       }
     }
   
