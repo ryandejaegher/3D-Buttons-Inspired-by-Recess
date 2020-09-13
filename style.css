@@ -1,4 +1,5 @@
 body {
     height: 100vh;
-    di
+    display: flex; 
+    place-items: center;;
 }
