@@ -94,7 +94,7 @@
     class ShadowButton extends HTMLElement {
 
         static get observedAttributes() { 
-            return ['buttoncolor']; 
+            return ['buttoncolor','shadowcolor']; 
         }
 
       get href() {
