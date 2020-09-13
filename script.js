@@ -144,5 +144,5 @@
   var buttons = document.querySelectorAll('shadow-button')
 
   buttons.forEach(button => {
-    button
+    button.setAttribute('buttonColor','red');
   })
