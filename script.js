@@ -116,6 +116,18 @@
         }
       }
   
+      get buttonColor() {
+        return this.hasAttribute("color");
+      }
+  
+      set buttonColor(val) {
+        if (val) {
+          return this.setAttribute("", val);
+        } else {
+          return this.removeAttribute("");
+        }
+      }
+
       checkColor() {
         var buttonColor = this.getAttribute("buttonColor");
         var shadowColor = this.getAttribute("shadowColor");
